@@ -1,0 +1,40 @@
+.events p
+{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Tahoma, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    color: blue;
+    text-shadow: 2px 2px 2px black;
+    user-select: none;
+
+}
+.events button
+{
+    border: none;
+    background-color: aqua;
+    margin: 10px;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    font-size: 16px;
+    /*this property disables selecting text*/
+    user-select: none;
+}
+.events button:hover
+{
+    background-color: rgb(9, 187, 187);
+    color: white;
+    box-shadow: 2px 2px 2px aqua;
+    cursor: pointer;
+}
+.events button:active
+{
+    transform: scale(0.95);
+}
+.events button span
+{
+    color: blue;
+    font-weight: bold;
+}
